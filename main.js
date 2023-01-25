@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const reposElement = document.querySelector('#repos');
   const followersElement = document.querySelector('#followers');
   const followingElement = document.querySelector('#following');
-  const linkElement = document.querySelector('#link');
+  const linkElement = document.querySelector('#link-cristiano');
   const nameElementYasmin = document.querySelector("#name-yasmin");
   const usernameElementYasmin = document.querySelector("#username-yasmin");
   const avatarElementYasmin = document.querySelector("#avatar-yasmin");
