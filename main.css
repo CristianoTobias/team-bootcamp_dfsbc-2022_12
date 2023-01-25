@@ -79,7 +79,6 @@ header .container {
 }
 
 #link-yasmin:hover {
-    color: #D3D3D3;
     background-color: #4B0082;
-    transition: 0.5s;
+    transition: var(--bg-color) 7s;
 }
