@@ -82,3 +82,11 @@ header .container {
     background-color: #4B0082;
     transition: var(--bg-color) 7s;
 }
+
+#link-cristiano {
+    transition: background-color 0.7s;
+}
+#link-cristiano:hover {
+    background-color:  #4B0082;
+    
+}
