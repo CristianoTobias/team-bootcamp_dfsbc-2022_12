@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .then(function (json) {
       nameElement.innerText = json.name;
       usernameElement.innerText = json.login;
-      // avatarElement.src = json.avatar_url;
+      avatarElement.src = json.avatar_url;
       reposElement.innerText = json.public_repos;
       followersElement.innerText = json.followers;
       followingElement.innerText = json.following;
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .then(function (json) {
       nameElementYasmin.innerText = json.name;
       usernameElementYasmin.innerText = json.login;
-      // avatarElementYasmin.src = json.avatar_url;
+      avatarElementYasmin.src = json.avatar_url;
       reposElementYasmin.innerText = json.public_repos;
       followersElementYasmin.innerText = json.followers;
       followingElementYasmin.innerText = json.following;
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .then(function (json) {
       nameElementNaldo.innerText = json.name;
       usernameElementNaldo.innerText = json.login;
-      // avatarElementNaldo.src = json.avatar_url;
+      avatarElementNaldo.src = json.avatar_url;
       reposElementNaldo.innerText = json.public_repos;
       followersElementNaldo.innerText = json.followers;
       followingElementNaldo.innerText = json.following;
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .then(function (json) {
       nameElementRenan.innerText = json.name;
       usernameElementRenan.innerText = json.login;
-      // avatarElementRenan.src = json.avatar_url;
+      avatarElementRenan.src = json.avatar_url;
       reposElementRenan.innerText = json.public_repos;
       followersElementRenan.innerText = json.followers;
       followingElementRenan.innerText = json.following;
